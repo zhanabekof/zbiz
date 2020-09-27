@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mx-auto text-center">
+      <form #myForm="ngForm" novalidate>
+        <div class="form-group">
+          <label>Логин</label>
+          <input class="form-control" name="login" [(ngModel)]="login" required />
+        </div>
+        <div class="form-group">
+          <label>Пароль</label>
+          <input class="form-control" type="password" name="password" [(ngModel)]="password" required />
+        </div>
+
+        <div class="form-group">
+          <button style="width: 100%" [disabled]="myForm.invalid"
+                  class="btn btn-primary" (click)="submit(myForm)">Войти</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+

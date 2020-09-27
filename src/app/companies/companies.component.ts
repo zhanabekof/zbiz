@@ -1,0 +1,18 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-companies',
+  templateUrl: './companies.component.html',
+  styleUrls: ['./companies.component.css']
+})
+export class CompaniesComponent implements OnInit {
+
+  constructor() { }
+
+  public compaines = [
+    {Name: 'Hello', Phone: '87054205396'},
+  ];
+  ngOnInit(): void {
+  }
+
+}

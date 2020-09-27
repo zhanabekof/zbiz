@@ -1,0 +1,12 @@
+.navbar{
+  border-bottom: 3px solid #9acd32;
+  padding: 25px;
+}
+.content
+{
+  margin: 50px 0;
+  min-height: 400px;
+}
+.nav-link{
+  margin: 0 30px !important;
+}
